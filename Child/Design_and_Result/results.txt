@@ -1,0 +1,67 @@
+                         Chronologic VCS (TM)
+            Version R-2020.12 -- Mon Nov 14 22:40:11 2022
+               Copyright (c) 1991-2020 by Synopsys Inc.
+                         ALL RIGHTS RESERVED
+
+This program is proprietary and confidential information of Synopsys Inc.
+and may be used and disclosed only as authorized in a license agreement
+controlling such use and disclosure.
+
+The design hasn't changed and need not be recompiled. 
+If you really want to, delete file simv.daidir/.vcs.timestamp and
+run VCS again.
+
+Chronologic VCS simulator copyright 1991-2020
+Contains Synopsys proprietary information.
+Compiler version R-2020.12; Runtime version R-2020.12;  Nov 14 22:40 2022
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_root.svh(392) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+UVM_INFO @ 0: reporter [RNTST] Running test test3...
+UVM_INFO seqt3.sv(136) @ 0: uvm_test_top.env0.assd.seqr1 [hope] starting child t3
+UVM_INFO seqt3.sv(136) @ 0: uvm_test_top.env1.assd.seqr1@@ [hope] starting child t3
+UVM_INFO seqt1.sv(138) @ 50867000: uvm_test_top.env1.assd.seqr1@@ [hope] Starting child t1
+UVM_INFO seqt1.sv(138) @ 50872000: uvm_test_top.env0.assd.seqr1 [hope] Starting child t1
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_objection.svh(1270) @ 122333000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO test3.sv(42) @ 122333000: uvm_test_top [Passed :-)] Congratulations, you passed the simulation
+UVM_INFO /home/morris/uvm-1.2/src/base/uvm_report_server.svh(847) @ 122333000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+Quit count :     0 of     5
+** Report counts by severity
+UVM_INFO :    8
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[Passed :-)]     1
+[RNTST]     1
+[TEST_DONE]     1
+[UVM/RELNOTES]     1
+[hope]     4
+
+$finish called from file "/home/morris/uvm-1.2/src/base/uvm_root.svh", line 517.
+$finish at simulation time            122333000
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1223330000 ps
+CPU Time:      4.990 seconds;       Data structure size:   0.5Mb
+Mon Nov 14 22:40:31 2022
