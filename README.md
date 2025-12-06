@@ -1,3 +1,4 @@
+
 • Led a team of three to implement a display controller and a bus in SystemVerilog.
 
 • Final design had 4 virtual display devices connected to a testbench and memory module via a bus.
@@ -22,3 +23,18 @@
  master signals to slave signals
  3. BUS_RESP: request is handled and correct master signals are connected to slave signals. Handle bursts 
  and connects appropriate signals together for a cycle, then resets signals and returns bus to idle state
+
+#####################################################################################################################################################################
+The controller supports:
+
+A programmable display framebuffer
+
+Configurable horizontal & vertical timing
+
+A hardware cursor with blinking support
+
+A simple memory-mapped register interface
+
+A simple message-based bus interface
+
+Many registers are latched at the rising edge of VBLANK into “working registers” to prevent tearing and ensure stable display during a frame.
