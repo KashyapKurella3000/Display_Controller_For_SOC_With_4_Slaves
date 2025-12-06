@@ -24,7 +24,7 @@
  3. BUS_RESP: request is handled and correct master signals are connected to slave signals. Handle bursts 
  and connects appropriate signals together for a cycle, then resets signals and returns bus to idle state
 
-###############################################################################################################
+########################################################################################################
 
 
 The controller supports:
